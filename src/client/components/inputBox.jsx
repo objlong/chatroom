@@ -19,7 +19,7 @@ class InputBox extends Component {
           <div class="flex">
             <textarea ref="textarea" name="message" rows="4"></textarea>
           </div>
-          <div style={{'width': '130px', 'text-align': 'right'}}>
+          <div style={{'width': '130px', 'textAlign': 'right'}}>
             <button type="submit" class="btn lg color-2">发送</button>
           </div>
         </form>
